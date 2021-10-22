@@ -1,0 +1,48 @@
+header{
+    min-height: 80vh;
+    background-image: url('assets/popsignuptwoweeks.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    /* background-color: black; */
+}
+
+.navbar .navbar-nav .nav-item a{
+    background-color: #ED1C24;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    background-color: #ED1C24;
+  border-color: #ED1C24;
+}
+
+.navbar .navbar-nav .nav-item a:focus{
+    box-shadow: none;
+}
+
+.form-select {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    background-image: url('assets/sort-down.svg');
+    background-position: right 10px center;
+    background-size: 13px;
+    background-repeat: no-repeat;
+}
+
+.form-select option{
+    color: black;
+}
+
+.form-select:focus{
+    border-color: white;
+    box-shadow: none;
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand img{
+        width: 197px;
+    }
+}
