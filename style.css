@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 header{
     min-height: 80vh;
     background-image: url('assets/popsignuptwoweeks.jpg');
@@ -5,9 +9,52 @@ header{
     background-position: center;
 }
 
-.navbar{
-    /* background-color: black; */
+header .display-2,.display-5{
+    font-weight: 600;
 }
+
+.input-group {
+    max-width: 668px;
+}
+
+.input-group div{
+    color: white;
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.input-group input{
+    border-color: white;
+}
+
+.input-group input:focus{
+    box-shadow: none;
+    border-color: white;
+}
+
+.getStarted-sm input{
+    border-color: white;
+}
+
+.getStarted-sm input:focus{
+    border-color: white;
+    box-shadow: none;
+}
+
+.getStarted-sm button{
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.getStarted-sm button:hover{
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.getStarted-sm button:focus{
+    box-shadow: none;
+}
+
 
 .navbar .navbar-nav .nav-item a{
     background-color: #ED1C24;
@@ -40,6 +87,64 @@ header{
     border-color: white;
     box-shadow: none;
 }
+
+.accordion{
+    max-width: 668px;
+}
+
+.accordion-button.collapsed {
+    color: white;
+    background-color: #303030;
+    border-radius: 6px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #303030;
+    border-radius: 6px;
+}
+
+
+.accordion-item {
+    background-color: #303030;
+    border: 1px solid #303030;
+    margin: 16px 0px;
+    border: 0;
+}
+
+.accordion-button:focus {
+    border-color: #303030;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("assets/times.svg");
+    background-size: 13px;
+    background-position: right 5px center;
+}
+
+.accordion-button::after {
+    background-image: url("assets/plus.svg");
+    background-size: 16px;
+    background-position: right 0px center;
+}
+.accordion-item:first-of-type {
+    border-radius: 6px;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 6px;
+}
+.accordion-item:not(:first-of-type) {
+    border-radius: 6px;
+}
+.accordion-item:last-of-type {
+    border-radius: 6px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 6px;
+}  
+
 
 @media screen and (min-width:768px){
     .navbar-brand img{
